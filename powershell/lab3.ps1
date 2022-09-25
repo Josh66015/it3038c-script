@@ -33,4 +33,4 @@ Function Version{
 $Version = Version
 Write-Host("Version of PS is $Version")
 
-Send-MailMessage -To "johns8mt@ucmail.uc.edu" -From "18johnson.matthew@gmail.com" -Subject "IT3038C Windows SysInfo" -Body $BODY -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential)
+Send-MailMessage -To "woodsoju@ucmail.uc.edu" -From "josh66015@gmail.com" -Subject "IT3038C Windows SysInfo" -Body $BODY -SmtpServer smtp.gmail.com -port 587 -UseSSL -Credential (Get-Credential)
