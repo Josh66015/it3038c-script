@@ -12,6 +12,17 @@ import datetime
 #Open python and create a new file by pressing file new file.
 
 #Paste the contents into file hit save name it P1.py then run.
+
+#Sample expected output:
+
+#The current time is :
+#2022-10-09 16:17:42.774770
+#Year : 2022
+#Month :  10
+#Day :  9
+#Hour :  16
+#Minute :  17
+
  
 current_time = datetime.datetime.now()
 
