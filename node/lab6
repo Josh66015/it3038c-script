@@ -1,0 +1,13 @@
+npm install --local os-utils
+
+var utils = require(‘os-utils’);
+
+console.log("Hostname: " + utils.platform());
+
+console.log("Server Uptime: " + utils.sysUptime() + "ms");
+
+console.log("Total Memory: " + utils.totalmem() + "MB");
+
+console.log("Free Memory: " + utils.freemem() + "MB");
+
+console.log("CPUs: " + utils.cpuCount());
