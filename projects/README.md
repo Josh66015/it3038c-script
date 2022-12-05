@@ -1,6 +1,5 @@
-#Project 1
-#Project 2
-#Project 3
+Project 1
+
 
 My project one is from a get time script to get the time right now 
 
@@ -34,6 +33,8 @@ Day :  9
 Hour :  16
 Minute :  17
 
+Project 2
+
 
 #My project two is from a get time script to get the time right now 
 
@@ -65,6 +66,8 @@ Minute :  17
 #Minute :  17
 #Second : 25
 #Microsecond : 547727
+
+Project 3
 
 
 #My project three is a rendom story generator.
