@@ -9,8 +9,8 @@ Sentence_starter = ['About 100 years ago','About 1,000 years ago','About 10,000 
 character = [' there lived a king.',' there lived an Emperor.',' there lived a Queen.',' there lived an Empress.', 
             ' there was a man named Jack.', ' there was a man named John.', 'there lived a farmer.', ' there lived a architect.', 
             ' there lived a bartender.', ' there lived a blacksmith.']
-time = ['One day', 'One full-moon night']
-story_plot = [' he was passing by',' he was going for a picnic to ']
+time = [' One day', ' One full-moon night']
+story_plot = [' he was passing by',' he was going for a picnic to']
 place = [' the mountains of Kaldor', 'the garden of Algon', 'the valley of reason','the trench of truth','the abyss of Karthon',' the giant orb of destiny',]
 second_character = [' they saw a man', ' they saw a young lady', ' they saw a troll',' they saw a giant bear',' they saw a dragon',' they saw a monk',]
 age = [' who seemed to be young and eager to take on any challenge', ' who seemed very old and feeble']
@@ -44,6 +44,9 @@ while(choice < 2):
             random.choice(age)+random.choice(work)),
         choice2 = input("which story did you like more? first? or second? "),
         choice2 = str(choice2)
+        print( "I liked the " + choice2 + " aswell! "),
+    else:
+        print("Thank you for reading my stories. I hope you had some fun!")
         print( "I liked the " + choice2 + " aswell! "),
     else:
         print("Thank you for reading my stories. Ihope you had some fun!")
